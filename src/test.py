@@ -1,7 +1,5 @@
 from builder.ecpy_builder import EcpyBuilder
 
-from uuid import uuid4
-
 def main():
 	ecpy = EcpyBuilder({
 		"host": "localhost", 
